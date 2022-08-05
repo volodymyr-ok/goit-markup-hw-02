@@ -76,3 +76,10 @@ h1 {
 
     /* Портфоліо */
 
+.portfolio {
+    list-style: none;
+}
+
+.portfolio .type {
+    color: var(--minor-color);
+}
