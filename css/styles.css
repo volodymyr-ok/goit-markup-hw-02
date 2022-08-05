@@ -1,15 +1,19 @@
+    /* css змінні */
+
+:root {
+    /* --black-logo: #000000; */
+    --header-border: #ECECEC;
+    --blue-accent: #2196F3;
+    --hover-text-accent: #FFFFFF;
+    --main-color: #212121;
+    --minor-color: #757575;
+    --button-color: #F5F4FA;
+    --portfolio-borders-color: #EEEEEE;
+    --footer-contact-color:rgba(255, 255, 255, 0.6);
+    --footer-bg: #2F303A;
+}
+
 body {
     background-color: #FFFFFF;
     color: #212121;
 }
-
-/* колір фону #FFFFFF */
-/* кольори логотипу блакитний #2196F3 та чорний #ECECEC */
-/* колір основного тексту #212121 */
-/* колір другорядного тексту #757575 */
-/* колір межі хедеру #ECECEC */
-/* колір фону кнопок #F5F4FA */
-/* колір ховеру фону #2196F3 */
-/* колір рамок портфоліо #EEEEEE */
-/* колір фону футеру #2F303A */
-/* колір контактів у футері rgba(255, 255, 255, 0.6) */
