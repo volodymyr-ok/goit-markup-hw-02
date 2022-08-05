@@ -1,7 +1,8 @@
     /* css змінні */
 
 :root {
-    /* --black-logo: #000000; */
+    --logo-black: #000000;
+    --logo-white: #FFFFFF;
     --header-border: #ECECEC;
     --blue-accent: #2196F3;
     --hover-text-accent: #FFFFFF;
@@ -13,14 +14,26 @@
     --footer-bg: #2F303A;
 }
 
+/* Шапка сайту */
+
+/* .header {} */
+
 body {
     background-color: #FFFFFF;
     color: #212121;
 }
 
-/* Шапка сайту */
+.logo {
+    text-decoration: none;
+}
 
-/* .header {} */
+.logo-web {
+    color: var(--blue-accent);
+}
+
+.logo-black {
+    color: var(--logo-black);
+}
 
 .nav-list {
     list-style: none;
@@ -44,10 +57,10 @@ body {
     color: var(--minor-color);
 }
 
-.nav.contact:hover,
+/* .nav.contact:hover,
 .nav.contact:focus {
     color: var(--blue-accent);
-}
+} */
 
     /* Головний контент */
 
@@ -82,4 +95,30 @@ h1 {
 
 .portfolio .type {
     color: var(--minor-color);
+}
+
+    /* Підвал */
+
+.footer {
+    background-color: var(--footer-bg);
+}
+
+.logo-white {
+    color: var(--logo-white);
+}
+
+.contacts {
+    list-style: none;
+}
+
+.contacts a {
+    text-decoration: none;
+}
+
+.location {
+    color: white;
+}
+
+.contacts .contact {
+    color: var(--footer-contact-color);
 }
