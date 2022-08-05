@@ -31,7 +31,8 @@ body {
     text-decoration: none;
 }
 
-.nav:hover {
+.nav:hover,
+.nav:focus {
     color: var(--blue-accent);
 }
 
@@ -43,7 +44,8 @@ body {
     color: var(--minor-color);
 }
 
-.nav.contact:hover {
+.nav.contact:hover,
+.nav.contact:focus {
     color: var(--blue-accent);
 }
 
@@ -63,9 +65,11 @@ h1 {
     background-color: var(--button-color);
     color: var(--main-color);
     border: none;
+    cursor: pointer;
 }
 
-.filter .button:hover {
+.filter .button:hover,
+.filter .button:focus {
     background-color: var(--blue-accent);
     color: var(--hover-text-accent);
 }
