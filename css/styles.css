@@ -47,3 +47,28 @@ body {
     color: var(--blue-accent);
 }
 
+    /* Головний контент */
+
+h1 {
+    color: transparent;
+}
+
+    /* Фільтр */
+
+.filter {
+    list-style: none;
+}
+
+.filter .button {
+    background-color: var(--button-color);
+    color: var(--main-color);
+    border: none;
+}
+
+.filter .button:hover {
+    background-color: var(--blue-accent);
+    color: var(--hover-text-accent);
+}
+
+    /* Портфоліо */
+
