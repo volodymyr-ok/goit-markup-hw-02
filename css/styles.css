@@ -17,3 +17,33 @@ body {
     background-color: #FFFFFF;
     color: #212121;
 }
+
+/* Шапка сайту */
+
+/* .header {} */
+
+.nav-list {
+    list-style: none;
+}
+
+.nav {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: var(--blue-accent);
+}
+
+.nav.current {
+    color: var(--blue-accent);
+}
+
+.nav.contact {
+    color: var(--minor-color);
+}
+
+.nav.contact:hover {
+    color: var(--blue-accent);
+}
+
