@@ -16,15 +16,29 @@
 
 /* Шапка сайту */
 
+/* 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;    
+    text-align: center;
+    letter-spacing: 0.03em;
+*/
+
 /* .header {} */
 
 body {
     background-color: #FFFFFF;
     color: #212121;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -37,6 +51,13 @@ body {
 
 .nav-list {
     list-style: none;
+}
+
+.nav-list a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .nav {
@@ -79,6 +100,12 @@ body {
     color: var(--main-color);
     border: none;
     cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .filter .button:hover,
@@ -93,8 +120,19 @@ body {
     list-style: none;
 }
 
+.portfolio h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
 .portfolio .type {
     color: var(--minor-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
 
     /* Підвал */
@@ -105,6 +143,14 @@ body {
 
 .logo-white {
     color: var(--logo-white);
+}
+
+.address a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .contacts {
