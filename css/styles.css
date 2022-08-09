@@ -78,10 +78,10 @@ body {
     color: var(--minor-color);
 }
 
-/* .nav.contact:hover,
-.nav.contact:focus {
+a.contact:hover,
+a.contact:focus {
     color: var(--blue-accent);
-} */
+}
 
     /* Головний контент */
 
@@ -129,7 +129,7 @@ body {
 
 .portfolio .type {
     color: var(--minor-color);
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -161,10 +161,10 @@ body {
     text-decoration: none;
 }
 
-.location {
+.contacts .location {
     color: white;
 }
 
-.contacts .contact {
+address .contact {
     color: var(--footer-contact-color);
 }
